@@ -27,6 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* <div className="common-content text-center"> 
+          <strong className="text-lg text-red-500">From root layout:</strong>
+          <h1>I will be displayed in all routes but dashboard routes</h1>
+        </div> */}
         {children}
       </body>
     </html>
