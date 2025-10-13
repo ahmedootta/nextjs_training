@@ -11,6 +11,18 @@ export default async function Home() {
   return (
     <>
       <div className="w-full min-h-screen bg-gradient-to-br from-dark-100 to-blue-100 p-8 flex flex-col items-center">
+        <div className="flex gap-4 mb-8">
+          <a href="/login">
+            <button className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold shadow hover:bg-blue-800 transition">
+              Login
+            </button>
+          </a>
+          <a href="/register">
+            <button className="px-6 py-2 bg-green-600 text-white rounded-lg font-semibold shadow hover:bg-green-800 transition">
+              Register
+            </button>
+          </a>
+        </div>
         <h1 className="text-3xl font-extrabold text-navy-900 mb-8 drop-shadow-lg">
           Albums
         </h1>
